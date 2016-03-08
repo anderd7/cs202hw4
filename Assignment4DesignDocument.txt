@@ -1,0 +1,32 @@
+David Anderson
+CS 202
+Assignemnt 4
+
+The purpose of this program is to implement and test a class that represents a dynamic array of integers.  The class will be tested by creating an object with a specified size, minimum value, and maximum value.  Various operations will be performed to display information form the array as well as manipulate the array.  These operations incude displaying all values, the minimum and maximum values as well as their frequency, swaping elements, creating a sub-array, and concatenation between two objects of the array class. 
+
+dataTypeName
+    DynamicArray
+domain
+    An array of integers.
+operations
+    Display all the data of the object.
+    Find the minimum value and how often it occurs.
+    Find the maximum value and how often it occurs.
+    Swap two elements of the object.
+    Creat a sub-array from two elements of the object.
+    Concatenante two arrays.
+    
+UML Diagram
+
+    DynamicArray
+        - arrayPtr
+        - size
+        - rangeMin
+        - rangeMax
+        
+        + Display(): void
+        + Minimum(): void
+        + Maximum(): void
+        + SwapElements(int, int): void
+        + SubArray(int, int): void
+        + Concatenante(DynamicArray): void
