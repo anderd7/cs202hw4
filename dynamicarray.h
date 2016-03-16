@@ -36,7 +36,7 @@ class DynamicArray{
     void Maximum();
     void SwapElements(int a, int b);
     void SubArray(int a, int b);
-    void Concatenante();
+    void Concatenate(DynamicArray darr);
 };
 
 #endif
